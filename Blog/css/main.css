@@ -1,0 +1,262 @@
+nav
+{
+	background: transparent;
+	height:50px;
+}
+
+#banner
+{
+	background: transparent;
+	height: 700px;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+nav ul li,nav .logo
+{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+nav ul li a
+{
+	line-height: inherit;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #eee;
+}
+nav .logo
+{
+	float: left;
+	padding: 10px;
+}
+.art #banner {
+height: 300px;
+}
+#banner .inner{
+	width: 300px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	top: 50px;
+	color: #eee;
+}
+.inner h1{
+	margin: 0;
+}
+button
+{
+	border: none;
+	background: #333;
+	color: #eee;
+	padding: 10px;
+}
+.learnme{
+	padding: 10px;
+}
+ .more{
+	margin-top: 300px;
+}
+#banner .inner .sub-heading{
+	line-height: 30px;
+	margin: 20px;
+}
+.logo a{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #fff;
+	text-decoration: none;
+}
+.green-section{
+	background: pink;
+	text-align: center;
+	padding: 100px;
+}
+.hr{
+	width: 100%;
+	height:2px;
+	background:#ccc;
+	margin: 0 auto;
+	margin: 20px;
+}
+.green-section .wrapper h2{
+	margin: 0;
+}
+.wrapper{
+	width: 300spx;
+	margin: 0 auto;
+}
+.icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	transform: rotate(45deg);
+	margin: 30px;
+}
+.icon-group{
+	margin-top: 20px;
+}
+.gray-section{
+	background: #777;
+	color: #fff;
+}
+.img{
+	width: 45%;
+	font-size: 0;/*解决字体大小行高导致的图片间隙问题*/
+}
+.img img{
+	width: 100%;
+}
+.text{
+	width: 55%;
+}
+.article div{
+float: left;
+
+}
+.article:nth-child(odd){/*奇数块颜色改变*/
+	background: #33393c;
+}
+.article:after{/*清除父级元素浮动*/
+content: "";
+display: block;
+clear: both;
+}
+.text{
+	position: relative;
+	top:68px;
+	left: 50px;
+
+}
+.text>*{
+	max-width: 80%;/*解决文本溢出*/
+}
+.purple-section{
+	padding: 80px;
+	background: #66a7ab;
+	color: #fff;
+}
+.purple-section .wrapper{
+	text-align: center;
+}
+
+.card{
+	float: left;
+	width: 50%;
+	min-height: 50px;
+	padding: 30px;
+	-webkit-box-sizing: border-box;/*通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度。*/
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*border: 1px solid #fff;*/
+}
+.card-group:after{/*清除父级元素浮动*/
+content: "";
+display: block;
+clear: both;
+}
+
+.card:first-child{
+	background: rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+	background: rgba(0,0,0,0.08);
+}
+.card:nth-child(3){
+	background: rgba(0,0,0,0.12);
+}
+.card:nth-child(4){
+	background: rgba(0,0,0,0.16);
+}
+.card:nth-child(5){
+	background: rgba(0,0,0,0.2);
+}
+.card:nth-child(6){
+	background: rgba(0,0,0,0.24);
+}
+.main-body{
+	background: #444 url(../img/1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+
+}
+footer{
+		background: #444;
+}
+ul.share-group{
+	width: 100%;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+
+}
+.share-group li{
+	display: inline-block;
+	padding: 10px;
+}
+.copy{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.mask{
+	display: none;
+	position: fixed;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left:0;
+	background: rgba(0,0,0,0.4);
+}
+#sidebar{
+	position: fixed;
+	top: 0;
+	right: -300px;
+	bottom: 0;
+	width: 300px;
+	background: #333;
+	padding: 20px 0;
+	transition: right 0.3s;
+}
+#sidebar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#sidebar ul a{
+text-decoration: none;
+color: #fff;
+display: inline-block;
+width: 100%;
+padding: 10px 30px;
+
+}
+#sidebar ul a:hover{
+	background: #444;
+}
+
+#back-to-top{
+	width: 100px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	background:transparent;
+	color: #000;
+}
+.content_wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+article{
+	line-height: 30px;
+}
